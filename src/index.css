@@ -1,0 +1,38 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+  --animate-duration: 1000ms;
+  --animate-delay: 0.9s;
+}
+
+input {
+  font-size: 1.2rem;
+  width: 100%;
+  color: gray;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: .3rem;
+  overflow: hidden;
+  margin-bottom: .5rem;
+  margin-right: .5rem;
+}
+
+.card p {
+  padding: .5rem;
+  text-align: center;
+}
+
+.card img {
+  max-height: 10rem;
+}
